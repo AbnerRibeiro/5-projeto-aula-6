@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+
+
+header>img{
+	border-radius: 50%
+}
+
+header>ul>li{
+	background-color: orange;
+	margin: -2px;
+	padding: 10px 20px;
+	display: inline;
+	color: white;
+	border-radius: 5px
+
+}
