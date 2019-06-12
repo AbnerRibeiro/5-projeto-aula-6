@@ -2,7 +2,7 @@ body{
 	margin: 0;
 }
 
-header{
+#alinhando-header {
 	background-color: blue;
 	display: flex;
 	justify-content: space-between;
@@ -23,5 +23,22 @@ header>ul>li{
 	display: inline;
 	color: white;
 	border-radius: 5px
+
+}
+
+
+article {
+	background-color: lightblue;
+	margin: 50px 10% 0 10%;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	background-color: grey;
+	padding: 50px 10px;
 
 }
