@@ -1,4 +1,4 @@
-body{
+body {
 	margin: 0;
 }
 
@@ -12,33 +12,42 @@ body{
 
 
 
-header>img{
+header>img {
 	border-radius: 50%
 }
 
-header>ul>li{
+header > ul > li {
 	background-color: orange;
 	margin: -2px;
 	padding: 10px 20px;
 	display: inline;
 	color: white;
 	border-radius: 5px
-
 }
 
 
 article {
 	background-color: lightblue;
-	margin: 50px 10% 0 10%;
+	margin: 5% 10% 30% 10%;
 	padding: 15px;
 	border-radius: 5px;
+}
+
+header > ul > li:hover {
+	transition: 2s;
+	background-color: green;
 }
 
 footer {
 	position: fixed;
 	left: 0px;
 	bottom: 0px;
+	width: 100%;
 	background-color: grey;
-	padding: 50px 10px;
+	padding: 10px 10px;
+}
 
+article > header {
+	display: flex;
+	align-content: center;
 }
